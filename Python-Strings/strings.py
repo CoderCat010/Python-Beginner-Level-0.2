@@ -33,10 +33,21 @@ print(removeSpace)
 
 
 # replace
-repNam = 'hello cat!'
+'''repNam = 'hello cat!'
 replaceCount = "cat, cat, cat, cat, cat"
 replaceWord = repNam.replace('hello', 'Hello')
 repCount = replaceCount.replace('cat', 'horse', 3)
 
 print(replaceWord)
 print(repCount)
+'''
+
+
+# split
+spTheName = 'a, b, c, d, e'
+countSplitList = 'a, b, c, d, e, f, g, h'
+splitToList = spTheName.split(',')
+maxSplitList = countSplitList.split(',', 4)
+
+print(splitToList)
+print(maxSplitList)
