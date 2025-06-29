@@ -14,3 +14,13 @@ names = 'MEGH'
 '''print(names[0:3])
 print(names[:3])
 print(names[2:])'''
+
+
+# str 
+'''
+num = 17
+convertToString = str(num)
+
+print(convertToString)
+print(type(convertToString))
+'''

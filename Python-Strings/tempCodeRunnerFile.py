@@ -1,1 +1,1 @@
-swapCase[2], swapCase[6] = swapCase[6], swapCase[2]
+print(convertToString)
