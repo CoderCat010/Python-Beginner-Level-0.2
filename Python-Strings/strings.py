@@ -25,12 +25,12 @@ print(convertToString)
 print(type(convertToString))
 '''
 
+
 # strip
 '''x = ' blue '
 removeSpace = x.strip()
 print(removeSpace)
 '''
-
 
 # replace
 '''repNam = 'hello cat!'
@@ -44,10 +44,25 @@ print(repCount)
 
 
 # split
-spTheName = 'a, b, c, d, e'
+'''spTheName = 'a, b, c, d, e'
 countSplitList = 'a, b, c, d, e, f, g, h'
 splitToList = spTheName.split(',')
 maxSplitList = countSplitList.split(',', 4)
 
 print(splitToList)
 print(maxSplitList)
+'''
+
+
+# find
+'''findmyWord1 = 'i love icecream'
+findmyWord2 = 'i love icecream'
+findmyWord3 = 'i love icecream'
+
+find1 = findmyWord1.find("e")
+find2 = findmyWord2.find("e", 2)
+find3 = findmyWord3.find("e", 13, 15)
+print(find1)
+print(find2)
+print(find3)
+'''
