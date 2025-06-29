@@ -24,3 +24,8 @@ convertToString = str(num)
 print(convertToString)
 print(type(convertToString))
 '''
+
+# strip
+x = ' blue '
+removeSpace = x.strip()
+print(removeSpace)
