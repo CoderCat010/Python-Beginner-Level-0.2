@@ -26,6 +26,17 @@ print(type(convertToString))
 '''
 
 # strip
-x = ' blue '
+'''x = ' blue '
 removeSpace = x.strip()
 print(removeSpace)
+'''
+
+
+# replace
+repNam = 'hello cat!'
+replaceCount = "cat, cat, cat, cat, cat"
+replaceWord = repNam.replace('hello', 'Hello')
+repCount = replaceCount.replace('cat', 'horse', 3)
+
+print(replaceWord)
+print(repCount)
