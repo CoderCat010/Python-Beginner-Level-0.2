@@ -66,3 +66,19 @@ print(find1)
 print(find2)
 print(find3)
 '''
+
+
+# count
+countmyWord1 = 'i love icecream'
+countmyWord2 = 'i love icecream'
+countmyWord3 = 'i love icecream'
+
+count1 = countmyWord1.count("e")
+count2 = countmyWord2.count("e", 2)
+count3 = countmyWord3.count("e", 12, 15)
+print(count1)
+print(count2)
+print(count3)
+
+
+
