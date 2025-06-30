@@ -69,6 +69,7 @@ print(find3)
 
 
 # count
+'''
 countmyWord1 = 'i love icecream'
 countmyWord2 = 'i love icecream'
 countmyWord3 = 'i love icecream'
@@ -79,6 +80,16 @@ count3 = countmyWord3.count("e", 12, 15)
 print(count1)
 print(count2)
 print(count3)
+'''
 
 
+# isalpha
+'''
+alpha1 = 'abc123'
+alpha2 = 'abc'
+checkIsAlpha1 = alpha1.isalpha()
+checkIsAlpha2 = alpha2.isalpha()
 
+print(checkIsAlpha1)
+print(checkIsAlpha2)
+'''
